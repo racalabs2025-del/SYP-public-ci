@@ -1,0 +1,14 @@
+.cc-freshness {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .8rem 1rem;
+  margin: 0 0 1rem;
+  border: 1px solid var(--cc-line, #dbe4f0);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--cc-bg, #fff) 92%, var(--cc-primary, #2563eb));
+}
+.cc-freshness p { margin: 0; color: var(--cc-muted, #64748b); font-size: .82rem; line-height: 1.45; }
+.cc-freshness strong { display: block; font-size: .92rem; }
+@media (max-width: 700px) { .cc-freshness { display: block; } .cc-freshness > p { margin-top: .45rem; } }

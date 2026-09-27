@@ -1,0 +1,20 @@
+.cc-field-feed__filters { display:flex; gap:.75rem; flex-wrap:wrap; padding:1rem; margin-bottom:1rem; border:1px solid var(--cc-line,#dbe4f0); border-radius:14px; background:var(--cc-bg,#fff); }
+.cc-field-feed__filters label { display:grid; gap:.3rem; min-width:150px; font-size:.78rem; color:var(--cc-muted,#64748b); }
+.cc-field-feed__filters select { min-height:2.35rem; }
+.cc-field-feed__list { display:grid; gap:1rem; max-width:920px; }
+.cc-field-card { display:grid; grid-template-columns:190px 1fr; overflow:hidden; border:1px solid var(--cc-line,#dbe4f0); border-radius:18px; background:var(--cc-bg,#fff); box-shadow:0 8px 24px rgba(15,23,42,.05); }
+.cc-field-card__photo { min-height:180px; padding:0; border:0; background:var(--cc-bg-elevated,#e8eef5); cursor:zoom-in; }
+.cc-field-card__photo img { width:100%; height:100%; object-fit:cover; display:block; }
+.cc-field-card__photo-expired { display:grid; place-items:center; min-height:180px; padding:1rem; color:var(--cc-muted,#64748b); background:var(--cc-bg-elevated,#eef2f7); text-align:center; font-size:.82rem; }
+.cc-field-card__body { padding:1.25rem; }
+.cc-field-card h3 { margin:.25rem 0 .6rem; font-size:1.1rem; }
+.cc-field-card p { margin:.35rem 0; line-height:1.55; }
+.cc-field-card__notes-toggle { margin-top:.75rem; border:0; background:transparent; color:#2563eb; padding:0; cursor:pointer; }
+.cc-field-card .cc-context-notes { margin-top:1rem; }
+.cc-field-feed__more { display:flex; justify-content:center; max-width:920px; padding:1rem 0; }
+.cc-photo-dialog { width:min(92vw,1000px); max-width:1000px; padding:0; border:0; border-radius:16px; background:transparent; }
+.cc-photo-dialog::backdrop { background:rgba(2,6,23,.82); }
+.cc-photo-dialog > div { position:relative; }
+.cc-photo-dialog img { display:block; width:100%; max-height:85vh; object-fit:contain; border-radius:16px; }
+.cc-photo-dialog button { position:absolute; z-index:1; right:.7rem; top:.7rem; width:2.2rem; height:2.2rem; border:0; border-radius:999px; background:rgba(2,6,23,.7); color:#fff; cursor:pointer; }
+@media (max-width:700px) { .cc-field-card { grid-template-columns:1fr; } .cc-field-card__photo,.cc-field-card__photo-expired { min-height:180px; max-height:240px; } .cc-field-feed__filters label { flex:1 1 140px; } }

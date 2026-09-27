@@ -1,0 +1,50 @@
+{
+  "name": "syp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs",
+    "quality": "npm run lint && npm test && npm run test:active-data-boundary && npm run test:bundle && npm run build",
+    "smoke:verify": "npm run quality",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test:auth": "node --test tests/auth-production.test.mjs",
+    "test:bundle": "node scripts/test_client_bundle.mjs",
+    "test:active-data-boundary": "node scripts/test_active_data_boundary.mjs",
+    "test:command-center": "node --test tests/command-center.test.mjs",
+    "test:supabase:rls-contract": "node --test tests/supabase-rls-contract.test.mjs",
+    "test:supabase:roles": "node scripts/verify_supabase_roles.mjs",
+    "supabase:cron:field-photos": "node scripts/ensure_field_update_photo_cron.mjs"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@supabase/supabase-js": "^2.117.1",
+    "fflate": "^0.8.3",
+    "firebase": "^12.11.0",
+    "firebase-admin": "^14.4.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.2",
+    "read-excel-file": "^9.3.10",
+    "recharts": "^3.10.1",
+    "three": "^0.186.0",
+    "write-excel-file": "^4.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@vitejs/plugin-react": "^6.0.1",
+    "d3-geo": "^3.1.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "pg": "^8.23.0",
+    "vite": "^8.0.1"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

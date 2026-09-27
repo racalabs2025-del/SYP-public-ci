@@ -1,0 +1,636 @@
+{
+  "metadata": {
+    "sourceName": "İBB Sosyal Tesis Konumları",
+    "publisher": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+    "totalRecords": 30,
+    "resolvedCount": 30,
+    "coveredDistrictsCount": 19,
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+    "retrievedAt": "2026-09-19T22:46:00.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL",
+    "duplicateCandidateCount": 30
+  },
+  "districtCounts": {
+    "eyupsultan": 1,
+    "besiktas": 2,
+    "avcilar": 2,
+    "beykoz": 3,
+    "arnavutkoy": 1,
+    "uskudar": 4,
+    "beyoglu": 2,
+    "kartal": 1,
+    "bakirkoy": 3,
+    "sultangazi": 1,
+    "pendik": 1,
+    "fatih": 1,
+    "sariyer": 2,
+    "kucukcekmece": 1,
+    "sancaktepe": 1,
+    "sultanbeyli": 1,
+    "beylikduzu": 1,
+    "zeytinburnu": 1,
+    "gungoren": 1
+  },
+  "items": [
+    {
+      "id": "sosyal-tesis-1",
+      "name": "ALTINBOYNUZ SOSYAL TESİSİ",
+      "districtId": "eyupsultan",
+      "districtName": "Eyüpsultan",
+      "address": "Tekke Parkı Merkez Bahariye Cd. No: 16 34050 Eyüpsultan/İstanbul",
+      "latitude": 41.0578458,
+      "longitude": 28.9456101,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-3872",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 78
+      }
+    },
+    {
+      "id": "sosyal-tesis-2",
+      "name": "ARNAVUTKÖY SOSYAL TESİSİ",
+      "districtId": "besiktas",
+      "districtName": "Beşiktaş",
+      "address": "Arnavutköy, Bebek Arnavutköy Cd No:72, 34345 Beşiktaş/İstanbul",
+      "latitude": 41.067491,
+      "longitude": 29.0448903,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2747",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 13
+      }
+    },
+    {
+      "id": "sosyal-tesis-3",
+      "name": "AVCILAR SOSYAL TESİSİ",
+      "districtId": "avcilar",
+      "districtName": "Avcılar",
+      "address": "Denizköşkler, Dr. Sadık Ahmet Cd. Eski İETT kampı No:7, 34315 Avcılar/İstanbul",
+      "latitude": 40.976648,
+      "longitude": 28.743912,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4166",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 95
+      }
+    },
+    {
+      "id": "sosyal-tesis-4",
+      "name": "BEYKOZ KORU SOSYAL TESİSİ",
+      "districtId": "beykoz",
+      "districtName": "Beykoz",
+      "address": "Merkez, Kelle İbrahim Cd. 17/A, 34820 Beykoz/İstanbul",
+      "latitude": 41.1316936,
+      "longitude": 29.0942223,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2813",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 40
+      }
+    },
+    {
+      "id": "sosyal-tesis-5",
+      "name": "BEYKOZ SAHİL SOSYAL TESİSİ",
+      "districtId": "beykoz",
+      "districtName": "Beykoz",
+      "address": "PAŞABAHÇE MAHALLESİ BURUNBAHÇE MEVKİ, Barbaros Cd. NO:16, 34800 Beykoz/İstanbul",
+      "latitude": 41.1134095,
+      "longitude": 29.0864284,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2748",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 21
+      }
+    },
+    {
+      "id": "sosyal-tesis-6",
+      "name": "BOĞAZKÖY SOSYAL TESİSİ",
+      "districtId": "arnavutkoy",
+      "districtName": "Arnavutköy",
+      "address": "Yunus Emre, Erdener Sk. No:36, 34285 Arnavutköy/İstanbul",
+      "latitude": 41.185797,
+      "longitude": 28.765582,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-3639",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 236
+      }
+    },
+    {
+      "id": "sosyal-tesis-7",
+      "name": "ÇAMLICA SOSYAL TESİSİ",
+      "districtId": "uskudar",
+      "districtName": "Üsküdar",
+      "address": "Kısıklı, Turistik Çamlıca Cd., 34692 Üsküdar/İstanbul",
+      "latitude": 41.027788,
+      "longitude": 29.069052,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-3687",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 167
+      }
+    },
+    {
+      "id": "sosyal-tesis-8",
+      "name": "CİHANGİR SOSYAL TESİSİ",
+      "districtId": "beyoglu",
+      "districtName": "Beyoğlu",
+      "address": "Sanatkarlar Caddesi, Kılıçalipaşa Mahallesi, Kamacı Ustası Sk. No: 1, 34433 Beyoğlu/İstanbul",
+      "latitude": 41.0284966,
+      "longitude": 28.9825361,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-3266",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 147
+      }
+    },
+    {
+      "id": "sosyal-tesis-9",
+      "name": "DRAGOS SOSYAL TESİSİ",
+      "districtId": "kartal",
+      "districtName": "Kartal",
+      "address": "Orhantepe, Turgut Özal Blv. No:10, 34865 Kartal/İstanbul",
+      "latitude": 40.9013477,
+      "longitude": 29.1466597,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4237",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 82
+      }
+    },
+    {
+      "id": "sosyal-tesis-10",
+      "name": "FETHİPAŞA SOSYAL TESİSİ",
+      "districtId": "uskudar",
+      "districtName": "Üsküdar",
+      "address": "Kuzguncuk Mahallesi Paşa Limanı Caddesi Nacak Sokak No:6 Kapı No: 14/2, 34674 Üsküdar/İstanbul",
+      "latitude": 41.0333739,
+      "longitude": 29.0259101,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4443",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 131
+      }
+    },
+    {
+      "id": "sosyal-tesis-11",
+      "name": "FLORYA SOSYAL TESİSİ",
+      "districtId": "bakirkoy",
+      "districtName": "Bakırköy",
+      "address": "İtfaiye Cad. No:1 Yeşilköy Halk Pazarı Yanı Yeşilköy İtfaye Arkası Florya, 34153 Bakırköy/İstanbul",
+      "latitude": 40.960613,
+      "longitude": 28.807588,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4018",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 154
+      }
+    },
+    {
+      "id": "sosyal-tesis-12",
+      "name": "GAZİ SOSYAL TESİSİ",
+      "districtId": "sultangazi",
+      "districtName": "Sultangazi",
+      "address": "Zübeyde Hanım, 1481. Sk., 34260 Sultangazi/İstanbul",
+      "latitude": 41.101274,
+      "longitude": 28.916913,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2746",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 10
+      }
+    },
+    {
+      "id": "sosyal-tesis-13",
+      "name": "GÖZDAĞI SOSYAL TESİSİ",
+      "districtId": "pendik",
+      "districtName": "Pendik",
+      "address": "Dumlupınar, Gözdağı Tepesi No:50, 34896 Pendik/İstanbul",
+      "latitude": 40.8906409,
+      "longitude": 29.2536092,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4025",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 263
+      }
+    },
+    {
+      "id": "sosyal-tesis-14",
+      "name": "HALİÇ SOSYAL TESİSİ",
+      "districtId": "fatih",
+      "districtName": "Fatih",
+      "address": "Abdülezel Paşa Cad. Kadir Has Üniversitesi Karşısı Fatih, 34083 Fatih/İstanbul",
+      "latitude": 41.028283,
+      "longitude": 28.957092,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4177",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 65
+      }
+    },
+    {
+      "id": "sosyal-tesis-15",
+      "name": "İSTİNYE SOSYAL TESİSİ",
+      "districtId": "sariyer",
+      "districtName": "Sarıyer",
+      "address": "İstinye, Emirgan Koru Cd. No:108, 34467 Sarıyer/İstanbul",
+      "latitude": 41.1147873,
+      "longitude": 29.0549822,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4333",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 69
+      }
+    },
+    {
+      "id": "sosyal-tesis-16",
+      "name": "KASIMPAŞA SOSYAL TESİSİ",
+      "districtId": "beyoglu",
+      "districtName": "Beyoğlu",
+      "address": "Bedrettin, Evliya Çelebi Cd. No:4, 34440 Beyoğlu/İstanbul",
+      "latitude": 41.0299569,
+      "longitude": 28.9667688,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4418",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 17
+      }
+    },
+    {
+      "id": "sosyal-tesis-17",
+      "name": "KÜÇÜK ÇAMLICA SOSYAL TESİSİ",
+      "districtId": "uskudar",
+      "districtName": "Üsküdar",
+      "address": "KÜÇÜK ÇAMLICA MAHALLESİ, OYMA SOKAK NO:3 PK.34696 ÜSKÜDAR",
+      "latitude": 41.016344,
+      "longitude": 29.064013,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2760",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 201
+      }
+    },
+    {
+      "id": "sosyal-tesis-18",
+      "name": "KÜÇÜKÇEKMECE SOSYAL TESİSİ",
+      "districtId": "kucukcekmece",
+      "districtName": "Küçükçekmece",
+      "address": "Fatih Mahallesi Yalı Caddesi, Altın Sk. No:16, 34290 Küçükçekmece/İstanbul",
+      "latitude": 40.9998227,
+      "longitude": 28.765311,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2761",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 76
+      }
+    },
+    {
+      "id": "sosyal-tesis-19",
+      "name": "SAFA TEPESİ SOSYAL TESİSİ",
+      "districtId": "sancaktepe",
+      "districtName": "Sancaktepe",
+      "address": "Yunus Emre Mah., Mevlana Cd. No:69, 34791 Sancaktepe/İstanbul",
+      "latitude": 41.0137496,
+      "longitude": 29.2547994,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2961",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 89
+      }
+    },
+    {
+      "id": "sosyal-tesis-20",
+      "name": "SULTANBEYLİ SOSYAL TESİSİ",
+      "districtId": "sultanbeyli",
+      "districtName": "Sultanbeyli",
+      "address": "Sultanbeyli Gölet Sosyal Tesisleri, Fatih mh. Antalya cad. Beşiroğlu Sk No.32 sultanbeyli, 34920 Sultanbeyli/İstanbul",
+      "latitude": 40.954071,
+      "longitude": 29.276533,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-3446",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 109
+      }
+    },
+    {
+      "id": "sosyal-tesis-21",
+      "name": "YAKUPLU SOSYAL TESİSİ",
+      "districtId": "beylikduzu",
+      "districtName": "Beylikdüzü",
+      "address": "Güzelyurt, Mehmet Akif Ersoy Cd. No:20/1, 34524 Esenyurt/İstanbul",
+      "latitude": 41.0036611,
+      "longitude": 28.6677748,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-3037",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 182
+      }
+    },
+    {
+      "id": "sosyal-tesis-22",
+      "name": "BEYKOZ KIR BAHÇESİ SOSYAL TESİSİ",
+      "districtId": "beykoz",
+      "districtName": "Beykoz",
+      "address": "MERKEZ MAHALLESİ, KELLE İBRAHİM CADDESİ, NO:17/A BEYKOZ",
+      "latitude": 41.134419,
+      "longitude": 29.1006,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2763",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 8
+      }
+    },
+    {
+      "id": "sosyal-tesis-23",
+      "name": "PEMBE KÖŞK SOSYAL TESİSİ",
+      "districtId": "sariyer",
+      "districtName": "Sarıyer",
+      "address": "Emirgan, Emirgan Korusu İçi Yolu No:3, 34467 Sarıyer/İstanbul",
+      "latitude": 41.109894,
+      "longitude": 29.05697,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-1771",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 18
+      }
+    },
+    {
+      "id": "sosyal-tesis-24",
+      "name": "KIR KAHVESİ SOSYAL TESİSİ",
+      "districtId": "besiktas",
+      "districtName": "Beşiktaş",
+      "address": "YİLDİZ MAHALLESİ, YILDIZ CADDESİ NO: 62 P.K. 34349 BEŞİKTAŞ",
+      "latitude": 41.0479649,
+      "longitude": 29.0131607,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-853",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 239
+      }
+    },
+    {
+      "id": "sosyal-tesis-25",
+      "name": "PAŞALİMANI SOSYAL TESİSİ",
+      "districtId": "uskudar",
+      "districtName": "Üsküdar",
+      "address": "KUZGUNCUK MAHALLESİ, PAŞALİMANI CADDESİ,(512 ADA 43 PARSEL) ÜSKÜDAR/İSTANBUL",
+      "latitude": 41.032235,
+      "longitude": 29.022992,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4275",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 212
+      }
+    },
+    {
+      "id": "sosyal-tesis-26",
+      "name": "FLORYA YERLEŞİM BİRİMLERİ",
+      "districtId": "bakirkoy",
+      "districtName": "Bakırköy",
+      "address": "BASINKÖY, İTFAİYE CAD. NO:1, 34153 BAKIRKÖY",
+      "latitude": 40.971945,
+      "longitude": 28.788689,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-1243",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 12
+      }
+    },
+    {
+      "id": "sosyal-tesis-27",
+      "name": "ZEYTİNBURNU SOSYAL TESİSİ",
+      "districtId": "zeytinburnu",
+      "districtName": "Zeytinburnu",
+      "address": "KAZLIÇEŞME, BEŞKARDEŞLER SK. NO:12, 34020 ZEYTİNBURNU",
+      "latitude": 40.9850535,
+      "longitude": 28.906515,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-1269",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 23
+      }
+    },
+    {
+      "id": "sosyal-tesis-28",
+      "name": "1453 ÇIRPICI SOSYAL TESİSİ",
+      "districtId": "bakirkoy",
+      "districtName": "Bakırköy",
+      "address": "ÇIRPICI ŞEHİR PARKI OSMANİYE MAHALLESİ KOŞUYOLU SOKAK NO:18 BAKIRKÖY",
+      "latitude": 41.0003203,
+      "longitude": 28.8892505,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2750",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 201
+      }
+    },
+    {
+      "id": "sosyal-tesis-29",
+      "name": "DENİZKÖŞK SOSYAL TESİSİ",
+      "districtId": "avcilar",
+      "districtName": "Avcılar",
+      "address": "Denizköşkler, Kemal Sunal Cd. No:38, 34315 Avcılar/İstanbul",
+      "latitude": 40.974184,
+      "longitude": 28.743431,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-2815",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 51
+      }
+    },
+    {
+      "id": "sosyal-tesis-30",
+      "name": "GÜNGÖREN SOSYAL TESİSİ",
+      "districtId": "gungoren",
+      "districtName": "Güngören",
+      "address": "Gençosman mahallesi, Doğanbey caddesi, Gençosman, Akyıldız Sk. no:94, 34200 Güngören/İstanbul",
+      "latitude": 41.0363577,
+      "longitude": 28.871629,
+      "operatorInstitution": "İBB Destek Hizmetleri Dairesi / BELTUR A.Ş.",
+      "source": "İBB Destek Hizmetleri Dairesi",
+      "sourceUrl": "https://data.ibb.gov.tr/dataset/sosyal-tesis-konumlari",
+      "retrievedAt": "2026-09-19T22:46:00.000Z",
+      "dataStatus": "VERIFIED_EXTERNAL",
+      "spatialJoinMethod": "EXACT_POLYGON",
+      "duplicateCandidate": {
+        "targetId": "ibb-poi-4065",
+        "targetSource": "İBB CBS Şube Müdürlüğü",
+        "distanceMeters": 16
+      }
+    }
+  ]
+}

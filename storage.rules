@@ -1,0 +1,41 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function getUserDoc() {
+      return firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isUserDocActive() {
+      return request.auth != null
+        && request.auth.token.firebase.sign_in_provider == 'password'
+        && firestore.exists(/databases/(default)/documents/users/$(request.auth.uid))
+        && (!('disabled' in getUserDoc()) || getUserDoc().disabled == false)
+        && (!('status' in getUserDoc()) || getUserDoc().status == 'active')
+        && (!('durum' in getUserDoc()) || getUserDoc().durum == 'AKTIF');
+    }
+
+    function getUserRole() {
+      return isUserDocActive() && ('role' in getUserDoc())
+        ? getUserDoc().role
+        : null;
+    }
+
+    function member() {
+      return getUserRole() in ['admin', 'manager', 'data_entry', 'chief', 'viewer'];
+    }
+
+    match /syp-photos/{userId}/{photoId} {
+      allow read: if member();
+      allow create: if getUserRole() in ['admin', 'data_entry'] && request.auth.uid == userId
+        && request.resource.size <= 5 * 1024 * 1024
+        && request.resource.contentType.matches('image/(jpeg|png|webp)');
+      allow update: if false;
+      allow delete: if getUserRole() == 'admin';
+    }
+    match /faaliyet-raporlari/{allPaths=**} {
+      allow read: if member();
+      allow create, update: if member() && getUserRole() == 'admin';
+      allow delete: if member() && getUserRole() == 'admin';
+    }
+  }
+}

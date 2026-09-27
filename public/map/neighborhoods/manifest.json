@@ -1,0 +1,534 @@
+{
+  "source": "OpenStreetMap contributors",
+  "sourceUrl": "https://www.openstreetmap.org/copyright",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "retrievedAt": "2026-09-25T02:22:38.649Z",
+  "sourceTimestamp": "2026-09-25T02:19:18Z",
+  "sourceSha256": "bbe7fd109acbf1c97c7249c00f09d7f79a0a3ec6de7c3829e75206919a8964e3",
+  "official": false,
+  "projection": "SYP Mercator 1200×620",
+  "note": "Topluluk kaynaklı referans sınırlar; kurum onaylı idari sınır değildir.",
+  "catalogCount": 963,
+  "matched": 921,
+  "unmatchedSource": [
+    {
+      "osmId": 7666488,
+      "name": "Mehmet Akif Mahallesi",
+      "districtId": "sultanbeyli"
+    },
+    {
+      "osmId": 7786494,
+      "name": "İstasyon Mahallesi",
+      "districtId": "kucukcekmece"
+    },
+    {
+      "osmId": 7980655,
+      "name": "Müeyyedzade Mahallesi",
+      "districtId": "beyoglu"
+    },
+    {
+      "osmId": 8040974,
+      "name": "Kadı Mehmet Efendi Mahallesi",
+      "districtId": "beyoglu"
+    },
+    {
+      "osmId": 8040979,
+      "name": "Sururi Mehmet Efendi Mahallesi",
+      "districtId": "beyoglu"
+    },
+    {
+      "osmId": 8041156,
+      "name": "Piri Paşa Mahallesi",
+      "districtId": "beyoglu"
+    },
+    {
+      "osmId": 8894466,
+      "name": "Kalem Mahallesi",
+      "districtId": "sile"
+    },
+    {
+      "osmId": 8900398,
+      "name": "Karacaköy Mahallesi",
+      "districtId": "sile"
+    },
+    {
+      "osmId": 9286262,
+      "name": "Topselvi Mahalesi",
+      "districtId": "kartal"
+    },
+    {
+      "osmId": 9286355,
+      "name": "Orta Mahallesi",
+      "districtId": "kartal"
+    },
+    {
+      "osmId": 9293239,
+      "name": "Yakuplu Mahallesi",
+      "districtId": "beylikduzu"
+    },
+    {
+      "osmId": 9324375,
+      "name": "İzzetpaşa Mahallesi",
+      "districtId": "sisli"
+    },
+    {
+      "osmId": 9327636,
+      "name": "Muradiye Mahallesi",
+      "districtId": "besiktas"
+    },
+    {
+      "osmId": 9343740,
+      "name": "Rumelihisarı Mahallesi",
+      "districtId": "sariyer"
+    },
+    {
+      "osmId": 9381914,
+      "name": "Pazariçi Mahallesi",
+      "districtId": "gaziosmanpasa"
+    },
+    {
+      "osmId": 9390946,
+      "name": "Eski Habipler Mahallesi",
+      "districtId": "sultangazi"
+    },
+    {
+      "osmId": 9391449,
+      "name": "Abdurrahman Nafiz Gürman Mahallesi",
+      "districtId": "gungoren"
+    },
+    {
+      "osmId": 9423103,
+      "name": "Atışalanı Mahallesi",
+      "districtId": "esenler"
+    },
+    {
+      "osmId": 9424009,
+      "name": "Mahmutbey Mahallesi",
+      "districtId": "bagcilar"
+    },
+    {
+      "osmId": 9437957,
+      "name": "Kocasinan Merkez Mahallesi",
+      "districtId": "bahcelievler"
+    },
+    {
+      "osmId": 9460089,
+      "name": "Muratbey Merkez Mahallesi",
+      "districtId": "catalca"
+    },
+    {
+      "osmId": 9460377,
+      "name": "Mimarsinan Mahallesi",
+      "districtId": "buyukcekmece"
+    },
+    {
+      "osmId": 9461611,
+      "name": "İkitelli OSB Mahallesi",
+      "districtId": "basaksehir"
+    },
+    {
+      "osmId": 9463376,
+      "name": "Çengelköy Mahallesi",
+      "districtId": "uskudar"
+    },
+    {
+      "osmId": 9475457,
+      "name": "Bahçeşehir 2. Kısım Mahallesi",
+      "districtId": "basaksehir"
+    },
+    {
+      "osmId": 9479804,
+      "name": "Cumhuriyetköy Mahallesi",
+      "districtId": "beykoz"
+    },
+    {
+      "osmId": 9489219,
+      "name": "Zerzavatçı Mahallesi",
+      "districtId": "beykoz"
+    },
+    {
+      "osmId": 9531481,
+      "name": "Ovayenice Mahallesi",
+      "districtId": "catalca"
+    },
+    {
+      "osmId": 9536790,
+      "name": "Yazlık Mahallesi",
+      "districtId": "catalca"
+    },
+    {
+      "osmId": 9586433,
+      "name": "Kalfa Mahallesi",
+      "districtId": "catalca"
+    },
+    {
+      "osmId": 9618065,
+      "name": "Başak Mahallesi",
+      "districtId": "catalca"
+    },
+    {
+      "osmId": 9619392,
+      "name": "Karacaköy Merkez Mahallesi",
+      "districtId": "catalca"
+    },
+    {
+      "osmId": 9642964,
+      "name": "Merkez Mahallesi",
+      "districtId": "esenyurt"
+    },
+    {
+      "osmId": 9642968,
+      "name": "Akevler Mahallesi 7 sokak",
+      "districtId": "esenyurt"
+    },
+    {
+      "osmId": 9643188,
+      "name": "Kavaklı Hürriyet Mahallesi",
+      "districtId": "silivri"
+    },
+    {
+      "osmId": 9643199,
+      "name": "Kavaklı İstiklal Mahallesi",
+      "districtId": "silivri"
+    },
+    {
+      "osmId": 9644018,
+      "name": "Çavuşbaşı Çiftlik Mahallesi",
+      "districtId": "beykoz"
+    },
+    {
+      "osmId": 9644584,
+      "name": "Çamlıtepe Mahallesi",
+      "districtId": "sariyer"
+    },
+    {
+      "osmId": 9644953,
+      "name": "Yeni Mahalle",
+      "districtId": "sariyer"
+    },
+    {
+      "osmId": 9645135,
+      "name": "Kumköy (Kilyos) Mahallesi",
+      "districtId": "sariyer"
+    },
+    {
+      "osmId": 9679582,
+      "name": "Hüseyinli Mahallesi",
+      "districtId": "cekmekoy"
+    },
+    {
+      "osmId": 14056989,
+      "name": "Beylikdüzü Organize Sanayi Bölgesi",
+      "districtId": "beylikduzu"
+    },
+    {
+      "osmId": 14601477,
+      "name": "Dudullu OSB Mahallesi",
+      "districtId": "umraniye"
+    }
+  ],
+  "invalid": [],
+  "districts": [
+    {
+      "id": "adalar",
+      "matched": 5,
+      "total": 5,
+      "missingIds": []
+    },
+    {
+      "id": "sile",
+      "matched": 60,
+      "total": 62,
+      "missingIds": [
+        "sile-karaca",
+        "sile-kalemkoy"
+      ]
+    },
+    {
+      "id": "tuzla",
+      "matched": 17,
+      "total": 17,
+      "missingIds": []
+    },
+    {
+      "id": "pendik",
+      "matched": 36,
+      "total": 36,
+      "missingIds": []
+    },
+    {
+      "id": "sultanbeyli",
+      "matched": 14,
+      "total": 15,
+      "missingIds": [
+        "sultanbeyli-mehmet-akif-ersoy"
+      ]
+    },
+    {
+      "id": "kartal",
+      "matched": 18,
+      "total": 20,
+      "missingIds": [
+        "kartal-soganlik-orta",
+        "kartal-topselvi"
+      ]
+    },
+    {
+      "id": "sancaktepe",
+      "matched": 19,
+      "total": 19,
+      "missingIds": []
+    },
+    {
+      "id": "cekmekoy",
+      "matched": 20,
+      "total": 21,
+      "missingIds": [
+        "cekmekoy-huseyinkoy"
+      ]
+    },
+    {
+      "id": "maltepe",
+      "matched": 18,
+      "total": 18,
+      "missingIds": []
+    },
+    {
+      "id": "kadikoy",
+      "matched": 21,
+      "total": 21,
+      "missingIds": []
+    },
+    {
+      "id": "atasehir",
+      "matched": 17,
+      "total": 17,
+      "missingIds": []
+    },
+    {
+      "id": "uskudar",
+      "matched": 32,
+      "total": 33,
+      "missingIds": [
+        "uskudar-cengelkoy-kuleli"
+      ]
+    },
+    {
+      "id": "umraniye",
+      "matched": 35,
+      "total": 37,
+      "missingIds": [
+        "umraniye-saray",
+        "umraniye-yenisehir"
+      ]
+    },
+    {
+      "id": "beykoz",
+      "matched": 42,
+      "total": 45,
+      "missingIds": [
+        "beykoz-zerzevatci",
+        "beykoz-ciftlik",
+        "beykoz-cumhuriyet"
+      ]
+    },
+    {
+      "id": "silivri",
+      "matched": 33,
+      "total": 35,
+      "missingIds": [
+        "silivri-kavakli-cumhuriyet",
+        "silivri-kavakli"
+      ]
+    },
+    {
+      "id": "buyukcekmece",
+      "matched": 23,
+      "total": 24,
+      "missingIds": [
+        "buyukcekmece-mimar-sinan-merkez"
+      ]
+    },
+    {
+      "id": "catalca",
+      "matched": 33,
+      "total": 39,
+      "missingIds": [
+        "catalca-karacakoy",
+        "catalca-yazlikkoy",
+        "catalca-kalfakoy",
+        "catalca-basakkoy",
+        "catalca-oyayenice",
+        "catalca-muratbey"
+      ]
+    },
+    {
+      "id": "beyoglu",
+      "matched": 41,
+      "total": 45,
+      "missingIds": [
+        "beyoglu-sururi",
+        "beyoglu-kadimehmet",
+        "beyoglu-pirimehmet-pasa",
+        "beyoglu-mueyyetzade"
+      ]
+    },
+    {
+      "id": "besiktas",
+      "matched": 22,
+      "total": 23,
+      "missingIds": [
+        "besiktas-rumeli-hisari"
+      ]
+    },
+    {
+      "id": "kagithane",
+      "matched": 19,
+      "total": 19,
+      "missingIds": []
+    },
+    {
+      "id": "sariyer",
+      "matched": 34,
+      "total": 37,
+      "missingIds": [
+        "sariyer-sariyer-yenimahalle",
+        "sariyer-kilyos",
+        "sariyer-derbent-camlitepe"
+      ]
+    },
+    {
+      "id": "sisli",
+      "matched": 24,
+      "total": 26,
+      "missingIds": [
+        "sisli-izzetpasa-ciftligi",
+        "sisli-muradiye"
+      ]
+    },
+    {
+      "id": "arnavutkoy",
+      "matched": 38,
+      "total": 38,
+      "missingIds": []
+    },
+    {
+      "id": "avcilar",
+      "matched": 10,
+      "total": 10,
+      "missingIds": []
+    },
+    {
+      "id": "bahcelievler",
+      "matched": 10,
+      "total": 11,
+      "missingIds": [
+        "bahcelievler-kocasinan"
+      ]
+    },
+    {
+      "id": "bakirkoy",
+      "matched": 15,
+      "total": 15,
+      "missingIds": []
+    },
+    {
+      "id": "bayrampasa",
+      "matched": 11,
+      "total": 11,
+      "missingIds": []
+    },
+    {
+      "id": "bagcilar",
+      "matched": 21,
+      "total": 22,
+      "missingIds": [
+        "bagcilar-mahmutbey-merkez"
+      ]
+    },
+    {
+      "id": "basaksehir",
+      "matched": 9,
+      "total": 10,
+      "missingIds": [
+        "basaksehir-basaksehir-2-kisim"
+      ]
+    },
+    {
+      "id": "beylikduzu",
+      "matched": 9,
+      "total": 10,
+      "missingIds": [
+        "beylikduzu-yakuplu-merkez"
+      ]
+    },
+    {
+      "id": "esenler",
+      "matched": 16,
+      "total": 17,
+      "missingIds": [
+        "esenler-havaalani"
+      ]
+    },
+    {
+      "id": "esenyurt",
+      "matched": 41,
+      "total": 43,
+      "missingIds": [
+        "esenyurt-baglarcesme",
+        "esenyurt-akevler"
+      ]
+    },
+    {
+      "id": "eyupsultan",
+      "matched": 29,
+      "total": 30,
+      "missingIds": [
+        "eyupsultan-pazarici"
+      ]
+    },
+    {
+      "id": "fatih",
+      "matched": 57,
+      "total": 57,
+      "missingIds": []
+    },
+    {
+      "id": "gaziosmanpasa",
+      "matched": 15,
+      "total": 15,
+      "missingIds": []
+    },
+    {
+      "id": "gungoren",
+      "matched": 10,
+      "total": 11,
+      "missingIds": [
+        "gungoren-a-nafiz-gurman"
+      ]
+    },
+    {
+      "id": "sultangazi",
+      "matched": 14,
+      "total": 15,
+      "missingIds": [
+        "sultangazi-eski-habibler"
+      ]
+    },
+    {
+      "id": "zeytinburnu",
+      "matched": 13,
+      "total": 13,
+      "missingIds": []
+    },
+    {
+      "id": "kucukcekmece",
+      "matched": 20,
+      "total": 21,
+      "missingIds": [
+        "kucukcekmece-halkali-istasyon"
+      ]
+    }
+  ]
+}

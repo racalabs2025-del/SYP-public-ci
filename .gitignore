@@ -1,0 +1,63 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables - API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Raw data dumps
+Buyuk_guncelleme/
+basvurudetaylar.xlsx
+/Demo Veriler/
+/data_import/
+/assets-source/
+/tmp/
+/data/source-evidence/neighborhood-boundaries/osm-overpass.json
+*.xlsx
+*.xls
+
+# Temporary and credential files
+cookies.txt
+.vercel
+scratch/
+scripts/reports/
+backups/
+*.backup.json
+*.backup.enc
+
+# Presentation & binary slide decks
+sunumlar/
+*.pdf
+!public/assets/reports/*.pdf
+!SYP_Saha_Yonetim_Veri_Ve_Operasyon_Ihtiyac_Listesi.pdf
+*.pptx
+.codex-finalizer/
+.codex-presentations/
+.env*.local
+supabase/.temp/
+
+# Empty product templates are safe to version.
+!public/templates/syp-*.xlsx

@@ -1,0 +1,121 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "meydanBasvurulari",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "meydanId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "meydanBasvurulari",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "meydanId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "konu",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "meydanBasvurulari",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "meydanId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ay",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "sahaGorevPlanlari",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "birimId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "sahaCalismalari",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "katilimciBirimIds",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "takipEdilenIsler",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "katilimciBirimIds",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "tarih",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "takipEdilenIsler",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "katilimciBirimIds",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "durum",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "takipEdilenIsler",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "katilimciBirimIds",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "closedAt",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

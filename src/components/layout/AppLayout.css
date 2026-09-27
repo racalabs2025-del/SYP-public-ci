@@ -1,0 +1,140 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   APP LAYOUT (EVRENSEL DÜZEN KAPSAYICISI)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.syp-desktop-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--syp-bg-canvas, #f1f5f9);
+  color: var(--syp-text-main, #0f172a);
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+  overflow-x: clip;
+  width: 100%;
+}
+
+:root[data-theme="dark"] .syp-desktop-dashboard,
+body.theme-dark .syp-desktop-dashboard {
+  background-color: var(--syp-bg-canvas, #0b1329);
+  color: var(--syp-text-main, #f8fafc);
+}
+
+.syp-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow-y: auto;
+  max-width: 1680px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MOBİL (RESPONSIVE) DÜZEN EKLENTİLERİ
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.syp-mobile-header {
+  display: none; /* Masaüstünde gizli */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: var(--syp-card-bg, #ffffff);
+  border-bottom: 1px solid var(--syp-border-color, #e2e8f0);
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.025);
+  z-index: 40;
+}
+
+:root[data-theme="dark"] .syp-mobile-header,
+body.theme-dark .syp-mobile-header {
+  background: var(--syp-card-bg, #131d38);
+  border-bottom-color: var(--syp-border-color, #24345d);
+}
+
+.syp-mobile-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.syp-mobile-header__logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0284c7 0%, #00498e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.syp-mobile-header__title {
+  font-weight: 700;
+  color: var(--syp-text-main, #0f172a);
+  font-size: 1.1rem;
+}
+
+.syp-mobile-header__menu-btn {
+  background: transparent;
+  border: none;
+  color: var(--syp-text-muted, #64748b);
+  padding: 0.25rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 12px;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.syp-mobile-header__menu-btn:hover {
+  background: var(--syp-card-surface, #f8fafc);
+  color: var(--syp-text-main, #0f172a);
+}
+
+.syp-mobile-header__menu-btn:focus-visible {
+  outline: 3px solid var(--syp-primary-blue, #0284c7);
+  outline-offset: 3px;
+}
+
+.syp-sidebar-overlay {
+  display: none;
+}
+
+/* 768px Altı Ekranlar (Mobil) */
+@media (max-width: 768px) {
+  .syp-desktop-dashboard {
+    flex-direction: column;
+  }
+
+  .syp-mobile-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 80;
+  }
+
+  .syp-sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.36);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    z-index: 100;
+    animation: syp-overlay-appear 180ms ease-out;
+  }
+}
+
+@keyframes syp-overlay-appear {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .syp-mobile-header__menu-btn { transition: none; }
+  .syp-sidebar-overlay { animation: none; }
+}

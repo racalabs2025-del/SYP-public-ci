@@ -1,0 +1,392 @@
+[
+  {
+    "districtId": "adalar",
+    "districtName": "Adalar",
+    "neighborhoodCount": 5,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "arnavutkoy",
+    "districtName": "Arnavutköy",
+    "neighborhoodCount": 38,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "atasehir",
+    "districtName": "Ataşehir",
+    "neighborhoodCount": 17,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "avcilar",
+    "districtName": "Avcılar",
+    "neighborhoodCount": 10,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "bagcilar",
+    "districtName": "Bağcılar",
+    "neighborhoodCount": 22,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "bahcelievler",
+    "districtName": "Bahçelievler",
+    "neighborhoodCount": 11,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "bakirkoy",
+    "districtName": "Bakırköy",
+    "neighborhoodCount": 15,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "basaksehir",
+    "districtName": "Başakşehir",
+    "neighborhoodCount": 10,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "bayrampasa",
+    "districtName": "Bayrampaşa",
+    "neighborhoodCount": 11,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "besiktas",
+    "districtName": "Beşiktaş",
+    "neighborhoodCount": 23,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "beykoz",
+    "districtName": "Beykoz",
+    "neighborhoodCount": 45,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "beylikduzu",
+    "districtName": "Beylikdüzü",
+    "neighborhoodCount": 10,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "beyoglu",
+    "districtName": "Beyoğlu",
+    "neighborhoodCount": 45,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "buyukcekmece",
+    "districtName": "Büyükçekmece",
+    "neighborhoodCount": 24,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "catalca",
+    "districtName": "Çatalca",
+    "neighborhoodCount": 39,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "cekmekoy",
+    "districtName": "Çekmeköy",
+    "neighborhoodCount": 21,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "esenler",
+    "districtName": "Esenler",
+    "neighborhoodCount": 17,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "esenyurt",
+    "districtName": "Esenyurt",
+    "neighborhoodCount": 43,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "eyupsultan",
+    "districtName": "Eyüpsultan",
+    "neighborhoodCount": 30,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "fatih",
+    "districtName": "Fatih",
+    "neighborhoodCount": 57,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "gaziosmanpasa",
+    "districtName": "Gaziosmanpaşa",
+    "neighborhoodCount": 15,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "gungoren",
+    "districtName": "Güngören",
+    "neighborhoodCount": 11,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "kadikoy",
+    "districtName": "Kadıköy",
+    "neighborhoodCount": 21,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "kagithane",
+    "districtName": "Kâğıthane",
+    "neighborhoodCount": 19,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "kartal",
+    "districtName": "Kartal",
+    "neighborhoodCount": 20,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "kucukcekmece",
+    "districtName": "Küçükçekmece",
+    "neighborhoodCount": 21,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "maltepe",
+    "districtName": "Maltepe",
+    "neighborhoodCount": 18,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "pendik",
+    "districtName": "Pendik",
+    "neighborhoodCount": 36,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "sancaktepe",
+    "districtName": "Sancaktepe",
+    "neighborhoodCount": 19,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "sariyer",
+    "districtName": "Sarıyer",
+    "neighborhoodCount": 37,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "sile",
+    "districtName": "Şile",
+    "neighborhoodCount": 62,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "silivri",
+    "districtName": "Silivri",
+    "neighborhoodCount": 35,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "sisli",
+    "districtName": "Şişli",
+    "neighborhoodCount": 26,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "sultanbeyli",
+    "districtName": "Sultanbeyli",
+    "neighborhoodCount": 15,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "sultangazi",
+    "districtName": "Sultangazi",
+    "neighborhoodCount": 15,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "tuzla",
+    "districtName": "Tuzla",
+    "neighborhoodCount": 17,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "umraniye",
+    "districtName": "Ümraniye",
+    "neighborhoodCount": 37,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "uskudar",
+    "districtName": "Üsküdar",
+    "neighborhoodCount": 33,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  },
+  {
+    "districtId": "zeytinburnu",
+    "districtName": "Zeytinburnu",
+    "neighborhoodCount": 13,
+    "publisher": "İstanbul Büyükşehir Belediyesi (İBB CBS / Muhtarlık Envanteri)",
+    "sourceUrl": "https://data.ibb.gov.tr/dataset/muhtarlik-adres-bilgileri",
+    "retrievedAt": "2026-09-19T22:24:10.000Z",
+    "dataStatus": "DERIVED_REFERENCE",
+    "note": "İBB Açık Veri Muhtarlık Lokasyon GeoJSON veri setindeki 963 muhtarlık kaydından türetilmiştir (İstanbul Valiliği toplam 963 mahalle sayısı ile çapraz doğrulanmıştır)."
+  }
+]

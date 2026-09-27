@@ -1,0 +1,392 @@
+[
+  {
+    "districtId": "adalar",
+    "districtName": "Adalar",
+    "areaKm2": 11,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "arnavutkoy",
+    "districtName": "Arnavutköy",
+    "areaKm2": 453,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "atasehir",
+    "districtName": "Ataşehir",
+    "areaKm2": 25,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "avcilar",
+    "districtName": "Avcılar",
+    "areaKm2": 50,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "bagcilar",
+    "districtName": "Bağcılar",
+    "areaKm2": 23,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "bahcelievler",
+    "districtName": "Bahçelievler",
+    "areaKm2": 17,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "bakirkoy",
+    "districtName": "Bakırköy",
+    "areaKm2": 29,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "basaksehir",
+    "districtName": "Başakşehir",
+    "areaKm2": 107,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "bayrampasa",
+    "districtName": "Bayrampaşa",
+    "areaKm2": 9,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "besiktas",
+    "districtName": "Beşiktaş",
+    "areaKm2": 18,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "beykoz",
+    "districtName": "Beykoz",
+    "areaKm2": 310,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "beylikduzu",
+    "districtName": "Beylikdüzü",
+    "areaKm2": 39,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "beyoglu",
+    "districtName": "Beyoğlu",
+    "areaKm2": 9,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "buyukcekmece",
+    "districtName": "Büyükçekmece",
+    "areaKm2": 173,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "catalca",
+    "districtName": "Çatalca",
+    "areaKm2": 1142,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "cekmekoy",
+    "districtName": "Çekmeköy",
+    "areaKm2": 152,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "esenler",
+    "districtName": "Esenler",
+    "areaKm2": 19,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "esenyurt",
+    "districtName": "Esenyurt",
+    "areaKm2": 43,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "eyupsultan",
+    "districtName": "Eyüpsultan",
+    "areaKm2": 228,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "fatih",
+    "districtName": "Fatih",
+    "areaKm2": 15,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "gaziosmanpasa",
+    "districtName": "Gaziosmanpaşa",
+    "areaKm2": 12,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "gungoren",
+    "districtName": "Güngören",
+    "areaKm2": 7,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "kadikoy",
+    "districtName": "Kadıköy",
+    "areaKm2": 25,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "kagithane",
+    "districtName": "Kâğıthane",
+    "areaKm2": 15,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "kartal",
+    "districtName": "Kartal",
+    "areaKm2": 38,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "kucukcekmece",
+    "districtName": "Küçükçekmece",
+    "areaKm2": 44,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "maltepe",
+    "districtName": "Maltepe",
+    "areaKm2": 53,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "pendik",
+    "districtName": "Pendik",
+    "areaKm2": 190,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "sancaktepe",
+    "districtName": "Sancaktepe",
+    "areaKm2": 63,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "sariyer",
+    "districtName": "Sarıyer",
+    "areaKm2": 177,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "sile",
+    "districtName": "Şile",
+    "areaKm2": 800,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "silivri",
+    "districtName": "Silivri",
+    "areaKm2": 858,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "sisli",
+    "districtName": "Şişli",
+    "areaKm2": 10,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "sultanbeyli",
+    "districtName": "Sultanbeyli",
+    "areaKm2": 29,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "sultangazi",
+    "districtName": "Sultangazi",
+    "areaKm2": 37,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "tuzla",
+    "districtName": "Tuzla",
+    "areaKm2": 138,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "umraniye",
+    "districtName": "Ümraniye",
+    "areaKm2": 46,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "uskudar",
+    "districtName": "Üsküdar",
+    "areaKm2": 35,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  },
+  {
+    "districtId": "zeytinburnu",
+    "districtName": "Zeytinburnu",
+    "areaKm2": 12,
+    "publisher": "Milli Savunma Bakanlığı / Harita Genel Müdürlüğü (HGM)",
+    "sourceUrl": "https://www.harita.gov.tr/urun/il-ve-ilce-yuz-olcumleri/176",
+    "referenceDate": null,
+    "retrievedAt": "2026-09-19T22:23:34.000Z",
+    "dataStatus": "VERIFIED_EXTERNAL"
+  }
+]

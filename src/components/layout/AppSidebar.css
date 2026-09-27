@@ -1,0 +1,705 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   APP SIDEBAR (ORTAK DİKEY SOL MENÜ)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.syp-sidebar {
+  width: 250px;
+  min-width: 250px;
+  background: var(--syp-card-bg, #ffffff);
+  border-right: 1px solid var(--syp-border-color, #e2e8f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem 0.85rem;
+  z-index: 50;
+  box-shadow: 2px 0 12px rgba(15, 23, 42, 0.04);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100dvh;
+  align-self: flex-start;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  gap: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+}
+
+:root[data-theme="dark"] .syp-sidebar,
+body.theme-dark .syp-sidebar {
+  background: var(--syp-card-bg, #131d38);
+  border-right-color: var(--syp-border-color, #24345d);
+  box-shadow: 2px 0 16px rgba(0, 0, 0, 0.4);
+}
+
+.syp-sidebar__top {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+/* Marka / Logo Başlığı */
+.syp-sidebar__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0.5rem 0.5rem 1.25rem;
+  border: 0;
+  border-bottom: 1px solid var(--syp-border-color, #e2e8f0);
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 180ms ease;
+}
+
+.syp-sidebar__brand:hover {
+  opacity: 0.82;
+}
+
+.syp-sidebar__logo-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0284c7 0%, #00498e 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+  flex-shrink: 0;
+}
+
+.syp-sidebar__brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.syp-sidebar__brand-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--syp-text-main, #0f172a);
+  line-height: 1.2;
+}
+
+:root[data-theme="dark"] .syp-sidebar__brand-title,
+body.theme-dark .syp-sidebar__brand-title {
+  color: #f8fafc;
+}
+
+.syp-sidebar__brand-sub {
+  font-size: 0.74rem;
+  color: var(--syp-text-muted, #64748b);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+/* Menü Öğeleri Listesi */
+.syp-sidebar__nav {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.syp-sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0.7rem 0.85rem;
+  border-radius: 11px;
+  color: var(--syp-text-muted, #64748b);
+  font-size: 0.88rem;
+  font-weight: 500;
+  font-family: inherit;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease, box-shadow 180ms ease;
+  box-sizing: border-box;
+}
+
+.syp-sidebar__link:hover {
+  background: var(--syp-card-surface, #f8fafc);
+  color: var(--syp-text-main, #0f172a);
+}
+
+:root[data-theme="dark"] .syp-sidebar__link:hover,
+body.theme-dark .syp-sidebar__link:hover {
+  background: var(--syp-card-surface, #1a274a);
+  color: #f8fafc;
+}
+
+/* Aktif Sayfa Vurgusu */
+.syp-sidebar__link.is-active {
+  background: rgba(2, 132, 199, 0.09);
+  color: #0369a1;
+  box-shadow: inset 0 0 0 1px rgba(2, 132, 199, 0.08);
+  font-weight: 600;
+}
+
+:root[data-theme="dark"] .syp-sidebar__link.is-active,
+body.theme-dark .syp-sidebar__link.is-active {
+  background: rgba(56, 189, 248, 0.16);
+  color: #38bdf8;
+  box-shadow: inset 0 0 0 1px rgba(56, 189, 248, 0.08);
+}
+
+.syp-sidebar__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SIDEBAR FOOTER & USER PROFILE
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.syp-sidebar__footer {
+  border-top: 1px solid var(--syp-border-color, #e2e8f0);
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+.syp-sidebar__quick-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.syp-sidebar__settings-btn {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+}
+
+.syp-sidebar__theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--syp-border-color, #e2e8f0);
+  background: var(--syp-card-surface, #f8fafc);
+  color: var(--syp-text-muted, #64748b);
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+  flex-shrink: 0;
+}
+
+.syp-sidebar__theme-btn:hover {
+  color: #0284c7;
+  border-color: #0284c7;
+  background: rgba(2, 132, 199, 0.1);
+}
+
+:root[data-theme="dark"] .syp-sidebar__theme-btn,
+body.theme-dark .syp-sidebar__theme-btn {
+  background: var(--syp-card-surface, #1a274a);
+  border-color: var(--syp-border-color, #24345d);
+  color: #94a3b8;
+}
+
+:root[data-theme="dark"] .syp-sidebar__theme-btn:hover,
+body.theme-dark .syp-sidebar__theme-btn:hover {
+  color: #38bdf8;
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.15);
+}
+
+.syp-sidebar__theme-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Kullanıcı Kartı */
+.syp-sidebar__user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.6rem;
+  border-radius: 8px;
+  background: var(--syp-card-surface, #f8fafc);
+  border: 1px solid var(--syp-border-color, #e2e8f0);
+  position: relative;
+}
+
+:root[data-theme="dark"] .syp-sidebar__user,
+body.theme-dark .syp-sidebar__user {
+  background: var(--syp-card-surface, #1a274a);
+  border-color: var(--syp-border-color, #24345d);
+}
+
+.syp-sidebar__avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #00498e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #ffffff;
+  border: 1px solid rgba(2, 132, 199, 0.4);
+  flex-shrink: 0;
+}
+
+.syp-sidebar__user-info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 1;
+  min-width: 0;
+}
+
+.syp-sidebar__user-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--syp-text-main, #0f172a);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+:root[data-theme="dark"] .syp-sidebar__user-name,
+body.theme-dark .syp-sidebar__user-name {
+  color: #f8fafc;
+}
+
+.syp-sidebar__user-role {
+  font-size: 0.7rem;
+  color: #0284c7;
+  font-weight: 600;
+}
+
+:root[data-theme="dark"] .syp-sidebar__user-role,
+body.theme-dark .syp-sidebar__user-role {
+  color: #38bdf8;
+}
+
+.syp-sidebar__logout-mini-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.syp-sidebar__logout-mini-btn:hover {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.syp-sidebar__nav-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.syp-sidebar__subnav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.2rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+  gap: 0.2rem;
+  border-left: 1px solid var(--syp-border-color);
+  margin-left: 1.2rem;
+  animation: sypSubnavSlide 0.2s ease-out forwards;
+  transform-origin: top;
+}
+
+@keyframes sypSubnavSlide {
+  from { opacity: 0; transform: scaleY(0.9); }
+  to { opacity: 1; transform: scaleY(1); }
+}
+
+.syp-sidebar__sublink {
+  background: transparent;
+  border: none;
+  text-align: left;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  color: var(--syp-text-muted);
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 180ms ease, color 180ms ease;
+  font-family: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.syp-sidebar__sublink:hover {
+  color: var(--syp-text-main);
+  background: rgba(2, 132, 199, 0.05);
+}
+
+.syp-sidebar__sublink.is-active {
+  color: var(--syp-primary-blue);
+  font-weight: 600;
+  background: rgba(2, 132, 199, 0.1);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MOBİL (RESPONSIVE) SIDEBAR & OFF-CANVAS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.syp-sidebar__mobile-close {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--syp-text-muted, #64748b);
+  cursor: pointer;
+  padding: 0.5rem;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 8px;
+}
+
+.syp-sidebar__mobile-close:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--syp-text-main, #0f172a);
+}
+
+.syp-sidebar button:focus-visible {
+  outline: 3px solid var(--syp-primary-blue, #0284c7);
+  outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .syp-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    height: 100dvh;
+    width: min(292px, calc(100vw - 40px));
+    min-width: 0;
+    z-index: 110;
+    visibility: hidden;
+    padding-top: max(1.25rem, env(safe-area-inset-top));
+    padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
+    transform: translateX(-100%);
+    transition: transform 220ms cubic-bezier(0.2, 0.7, 0.2, 1), visibility 0s linear 220ms;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .syp-sidebar.is-open {
+    transform: translateX(0);
+    visibility: visible;
+    transition-delay: 0s;
+  }
+
+  .syp-sidebar__mobile-close {
+    display: flex;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .syp-sidebar__brand { padding-right: 32px; }
+  .syp-sidebar__link, .syp-sidebar__sublink { min-height: 44px; }
+  .syp-sidebar__theme-btn, .syp-sidebar__logout-mini-btn { min-width: 44px; min-height: 44px; }
+  .syp-sidebar__district-btn, .syp-sidebar__neighborhood-btn, .syp-sidebar__help-btn { min-height: 40px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .syp-sidebar, .syp-sidebar * { transition: none; animation: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   İLÇELER / MAHALLELER COLLAPSIBLE BÖLÜM
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.syp-sidebar__section {
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--syp-border-color, #e2e8f0);
+  padding-top: 0.5rem;
+}
+
+.syp-sidebar__section-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--syp-text-primary, #1e293b);
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+
+.syp-sidebar__section-toggle:hover {
+  background: var(--syp-hover-bg, rgba(2, 132, 199, 0.06));
+}
+
+.syp-sidebar__section-toggle .syp-sidebar__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--syp-text-secondary, #64748b);
+}
+
+.syp-sidebar__chevron {
+  width: 16px;
+  height: 16px;
+  margin-left: auto;
+  color: var(--syp-text-secondary, #64748b);
+  transition: transform 200ms ease;
+}
+
+.syp-sidebar__section-toggle.is-open .syp-sidebar__chevron {
+  transform: rotate(180deg);
+}
+
+.syp-sidebar__district-count {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--syp-text-secondary, #94a3b8);
+  background: var(--syp-hover-bg, rgba(2, 132, 199, 0.08));
+  padding: 1px 6px;
+  border-radius: 10px;
+}
+
+/* Arama kutusu */
+.syp-sidebar__district-search {
+  position: relative;
+  margin: 0.35rem 0.25rem 0.35rem;
+}
+
+.syp-sidebar__search-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  color: var(--syp-text-secondary, #94a3b8);
+  pointer-events: none;
+}
+
+.syp-sidebar__search-input {
+  width: 100%;
+  padding: 6px 8px 6px 28px;
+  border: 1px solid var(--syp-border-color, #e2e8f0);
+  border-radius: 6px;
+  background: var(--syp-card-bg, #ffffff);
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--syp-text-primary, #1e293b);
+  outline: none;
+  transition: border-color 150ms ease;
+  box-sizing: border-box;
+}
+
+.syp-sidebar__search-input:focus {
+  border-color: #0284c7;
+  box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.15);
+}
+
+/* İlçe listesi */
+.syp-sidebar__district-list {
+  max-height: 260px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 0 0.15rem;
+}
+
+.syp-sidebar__district-item {
+  margin-bottom: 1px;
+}
+
+.syp-sidebar__district-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--syp-text-primary, #334155);
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease;
+  text-align: left;
+}
+
+.syp-sidebar__district-btn:hover {
+  background: var(--syp-hover-bg, rgba(2, 132, 199, 0.06));
+  color: #0284c7;
+}
+
+.syp-sidebar__district-btn.is-active {
+  background: rgba(2, 132, 199, 0.1);
+  color: #0284c7;
+  font-weight: 600;
+}
+
+/* Yaka nokta göstergesi */
+.syp-sidebar__yaka-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.syp-sidebar__yaka-dot.is-avrupa {
+  background: #0284c7;
+}
+
+.syp-sidebar__yaka-dot.is-anadolu {
+  background: #059669;
+}
+
+/* Mahalle listesi */
+.syp-sidebar__neighborhoods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  padding: 4px 4px 6px 20px;
+}
+
+.syp-sidebar__neighborhood-btn {
+  padding: 2px 7px;
+  border: 1px solid var(--syp-border-color, #e2e8f0);
+  border-radius: 4px;
+  background: transparent;
+  font: inherit;
+  font-size: 0.68rem;
+  color: var(--syp-text-secondary, #64748b);
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+
+.syp-sidebar__neighborhood-btn:hover {
+  background: rgba(2, 132, 199, 0.06);
+  border-color: #0284c7;
+  color: #0284c7;
+}
+
+.syp-sidebar__neighborhood-btn.is-active {
+  background: #0284c7;
+  border-color: #0284c7;
+  color: #ffffff;
+}
+
+.syp-sidebar__more-label {
+  font-size: 0.68rem;
+  color: var(--syp-text-secondary, #94a3b8);
+  padding: 2px 4px;
+}
+
+.syp-sidebar__empty {
+  font-size: 0.75rem;
+  color: var(--syp-text-secondary, #94a3b8);
+  text-align: center;
+  padding: 8px;
+  margin: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SSS VE KILAVUZ BAĞLANTILARI
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.syp-sidebar__help-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--syp-border-color, #e2e8f0);
+  margin-bottom: 0.5rem;
+}
+
+.syp-sidebar__help-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0.45rem 0.65rem;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--syp-text-secondary, #64748b);
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.syp-sidebar__help-btn:hover {
+  background: var(--syp-hover-bg, rgba(2, 132, 199, 0.06));
+  color: #0284c7;
+}
+
+.syp-sidebar__help-btn.is-active {
+  background: rgba(2, 132, 199, 0.1);
+  color: #0284c7;
+  font-weight: 600;
+}
+
+.syp-sidebar__help-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DARK MODE İLÇE VE YARDIM
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root[data-theme="dark"] .syp-sidebar__section-toggle,
+:root[data-theme="dark"] .syp-sidebar__district-btn,
+:root[data-theme="dark"] .syp-sidebar__help-btn {
+  color: #e2e8f0;
+}
+
+:root[data-theme="dark"] .syp-sidebar__search-input {
+  background: #1a274a;
+  border-color: #24345d;
+  color: #f1f5f9;
+}
+
+:root[data-theme="dark"] .syp-sidebar__neighborhood-btn {
+  border-color: #24345d;
+  color: #94a3b8;
+}
+
+:root[data-theme="dark"] .syp-sidebar__section {
+  border-top-color: #24345d;
+}
+
+:root[data-theme="dark"] .syp-sidebar__help-links {
+  border-bottom-color: #24345d;
+}

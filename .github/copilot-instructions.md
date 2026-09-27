@@ -1,0 +1,6 @@
+- [ ] Proje oluşturulduktan sonra, mobil öncelikli ve İBB kurumsal renkleri (#00498E, beyaz, antrasit) ile tasarım yapılacak.
+- [ ] Splash screen: İstanbul ve teknoloji temalı, 'Saha Yönetim Portalı' yazılı açılış ekranı eklenecek.
+- [ ] Login ekranı: Sol üstte başlık, sağ üstte tarih/saat, sadece parola (admin) ile giriş olacak.
+- [ ] Navigation: Tarayıcı geri tuşu uygulama dışına çıkarmayacak, History API ile state yönetimi yapılacak.
+- [ ] Dashboard: Header sabit, altında Firestore'dan okunan meydanlar (Aksaray, Bağcılar, Bakırköy...) kart yapısı ile listelenecek.
+- [ ] Firebase kurulumu ve Firestore bağlantısı yapılacak.

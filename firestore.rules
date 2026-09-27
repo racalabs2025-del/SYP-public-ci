@@ -1,0 +1,142 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null && request.auth.token.firebase.sign_in_provider == 'password'; }
+    function account() { return get(/databases/$(database)/documents/users/$(request.auth.uid)).data; }
+    function member() {
+      return signedIn() && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+        && account().get('disabled', false) == false
+        && account().get('status', 'active') == 'active' && account().get('durum', 'AKTIF') == 'AKTIF'
+        && account().role in ['admin', 'manager', 'data_entry', 'chief', 'viewer'];
+    }
+    function admin() { return member() && account().role == 'admin'; }
+    function dataWriter() { return member() && account().role in ['admin', 'data_entry']; }
+    function taskWriter() { return dataWriter(); }
+    function phoneReader() { return member() && account().role in ['admin', 'manager']; }
+    function unitValid(unit) { return unit in ['MEYDAN', 'YERINDE_COZUM', 'SAHA_HIZMETLERI', 'COZUM_NOKTALARI']; }
+    function readUnit(unit) { return member() && (account().role != 'chief' || (unitValid(account().get('unitId', '')) && unit == account().unitId)); }
+    function readJoint(data) { return member() && (account().role != 'chief' || (unitValid(account().get('unitId', '')) && data.get('katilimciBirimIds', []).hasAny([account().unitId]))); }
+    function activeCollection(kind) { return kind in ['birimPersonelleri', 'sahaGorevPlanlari', 'sahaCalismalari', 'takipEdilenIsler']; }
+    function auditExists(kind, id) {
+      return request.resource.data.auditId is string
+        && !exists(/databases/$(database)/documents/$(kind)/$(id)/gecmis/$(request.resource.data.auditId))
+        && existsAfter(/databases/$(database)/documents/$(kind)/$(id)/gecmis/$(request.resource.data.auditId))
+        && getAfter(/databases/$(database)/documents/$(kind)/$(id)/gecmis/$(request.resource.data.auditId)).data.by == request.auth.uid;
+    }
+    function versioned(kind, id, creating) {
+      return request.resource.data.updatedBy == request.auth.uid
+        && request.resource.data.updatedAt is string
+        && !request.resource.data.keys().hasAny(['telefon'])
+        && auditExists(kind, id)
+        && (creating ? request.resource.data.version == 1 && request.resource.data.arsivli == false
+          : request.resource.data.version == resource.data.version + 1
+            && request.resource.data.createdAt == resource.data.createdAt
+            && (request.resource.data.arsivli == resource.data.arsivli || admin()));
+    }
+    function validPerson(id) {
+      return request.resource.data.personelId == id && unitValid(request.resource.data.birimId)
+        && request.resource.data.adSoyad is string && request.resource.data.adSoyad.size() >= 2
+        && request.resource.data.durum in ['AKTIF', 'PASIF'];
+    }
+    function validWork(id) {
+      return request.resource.data.recordId == id && request.resource.data.schemaVersion == 2
+        && request.resource.data.tarih.matches('[0-9]{4}-[0-9]{2}-[0-9]{2}')
+        && request.resource.data.katilimciBirimIds is list
+        && request.resource.data.katilimciBirimIds.hasOnly(['MEYDAN', 'YERINDE_COZUM', 'SAHA_HIZMETLERI'])
+        && (request.resource.data.birimId == '' || (unitValid(request.resource.data.birimId) && request.resource.data.katilimciBirimIds.hasAny([request.resource.data.birimId])));
+    }
+    function validTask() {
+      return request.resource.data.baslik is string && request.resource.data.baslik.size() > 0
+        && request.resource.data.sorumlu is string && request.resource.data.sorumlu.size() > 0
+        && request.resource.data.durum in ['Bekliyor', 'Devam Ediyor', 'Tamamlandı']
+        && (request.resource.data.durum != 'Tamamlandı' || (
+          request.resource.data.kapanisNotu.matches('[\\s\\S]*\\S[\\s\\S]*')
+          && request.resource.data.closedAt is string && request.resource.data.closedBy is string));
+    }
+    function validActivity() {
+      return unitValid(request.resource.data.birimId) && request.resource.data.yapilanIs.size() > 0
+        && request.resource.data.sonuc.size() > 0 && request.resource.data.ilceId.size() > 0
+        && request.resource.data.gorevYeri.size() > 0 && request.resource.data.teyitEden.size() > 0
+        && request.resource.data.teyitTarihi.matches('[0-9]{4}-[0-9]{2}-[0-9]{2}')
+        && (request.resource.data.ekip.size() > 0 || request.resource.data.personelId.size() > 0);
+    }
+    function validPlan(id) {
+      return validWork(id) && unitValid(request.resource.data.birimId)
+        && request.resource.data.ilceId.size() > 0 && request.resource.data.gorevYeri.size() > 0
+        && request.resource.data.baslangic.matches('([01][0-9]|2[0-3]):[0-5][0-9]')
+        && request.resource.data.bitis.matches('([01][0-9]|2[0-3]):[0-5][0-9]')
+        && request.resource.data.baslangic != request.resource.data.bitis
+        && exists(/databases/$(database)/documents/birimPersonelleri/$(request.resource.data.personelId))
+        && get(/databases/$(database)/documents/birimPersonelleri/$(request.resource.data.personelId)).data.birimId == request.resource.data.birimId;
+    }
+    function planWriter() { return dataWriter(); }
+    match /users/{id} {
+      allow read: if signedIn() && (request.auth.uid == id || admin());
+      allow create, update: if admin() && request.resource.data.role in ['admin', 'manager', 'data_entry', 'chief', 'viewer']
+        && (request.resource.data.role != 'chief' || unitValid(request.resource.data.get('unitId', '')))
+        && (request.auth.uid != id || (request.resource.data.role == resource.data.role
+          && request.resource.data.get('disabled', false) == resource.data.get('disabled', false)
+          && request.resource.data.get('status', 'active') == resource.data.get('status', 'active')));
+      allow delete: if false;
+    }
+    match /birimPersonelleri/{id} {
+      allow read: if readUnit(resource.data.birimId);
+      allow create: if dataWriter() && validPerson(id) && versioned('birimPersonelleri', id, true);
+      allow update: if dataWriter() && validPerson(id) && request.resource.data.birimId == resource.data.birimId && versioned('birimPersonelleri', id, false);
+    }
+    match /personelTelefonlari/{id} {
+      allow read: if phoneReader();
+      allow create, update: if dataWriter() && request.resource.data.keys().hasOnly(['personelId', 'telefon', 'updatedAt', 'updatedBy'])
+        && request.resource.data.personelId == id && request.resource.data.telefon is string
+        && request.resource.data.updatedBy == request.auth.uid
+        && existsAfter(/databases/$(database)/documents/birimPersonelleri/$(id));
+    }
+    match /sahaGorevPlanlari/{id} {
+      allow read: if readUnit(resource.data.birimId);
+      allow create: if planWriter() && validPlan(id) && versioned('sahaGorevPlanlari', id, true);
+      allow update: if planWriter() && validPlan(id) && versioned('sahaGorevPlanlari', id, false);
+    }
+    match /sahaPlanKilitleri/{id} { allow read, create, update: if taskWriter(); }
+    match /{kind}/{id} {
+      allow read: if kind in ['sahaCalismalari', 'takipEdilenIsler'] && readJoint(resource.data);
+      allow create: if kind in ['sahaCalismalari', 'takipEdilenIsler'] && (kind == 'takipEdilenIsler' ? taskWriter() : dataWriter())
+        && validWork(id) && (kind == 'takipEdilenIsler' ? validTask() : validActivity()) && versioned(kind, id, true);
+      allow update: if kind in ['sahaCalismalari', 'takipEdilenIsler'] && (kind == 'takipEdilenIsler' ? taskWriter() : dataWriter())
+        && validWork(id) && (kind == 'takipEdilenIsler' ? validTask() : validActivity()) && versioned(kind, id, false);
+    }
+    match /{kind}/{id}/gecmis/{entry} {
+      allow read: if activeCollection(kind) && (kind in ['birimPersonelleri', 'sahaGorevPlanlari']
+        ? readUnit(get(/databases/$(database)/documents/$(kind)/$(id)).data.birimId)
+        : readJoint(get(/databases/$(database)/documents/$(kind)/$(id)).data));
+      allow create: if activeCollection(kind) && taskWriter() && request.resource.data.by == request.auth.uid
+        && getAfter(/databases/$(database)/documents/$(kind)/$(id)).data.auditId == entry
+        && !request.resource.data.data.keys().hasAny(['telefon']);
+      allow update, delete: if false;
+    }
+    match /birimVeriDurumlari/{id} {
+      allow read: if readUnit(resource.data.birimId);
+      allow create, update: if taskWriter() && unitValid(id) && request.resource.data.birimId == id && request.resource.data.veriVar == true;
+    }
+    match /birimAlanSemalari/{id} {
+      allow read: if member() && (account().role != 'chief' || account().unitId == id);
+      allow create, update: if admin() && unitValid(id) && request.resource.data.birimId == id;
+    }
+    match /sahaFotograflari/{id} {
+      allow read: if activeCollection(resource.data.kind) && (resource.data.kind in ['birimPersonelleri', 'sahaGorevPlanlari']
+        ? readUnit(get(/databases/$(database)/documents/$(resource.data.kind)/$(resource.data.recordId)).data.birimId)
+        : readJoint(get(/databases/$(database)/documents/$(resource.data.kind)/$(resource.data.recordId)).data));
+      allow create: if taskWriter() && activeCollection(request.resource.data.kind)
+        && request.resource.data.createdBy == request.auth.uid
+        && request.resource.data.dataUrl is string && request.resource.data.dataUrl.size() <= 350000
+        && request.resource.data.dataUrl.matches('data:image/jpeg;base64,[A-Za-z0-9+/=]+')
+        && getAfter(/databases/$(database)/documents/$(request.resource.data.kind)/$(request.resource.data.recordId)).data.fotoUrl == 'syp-photo:' + id;
+      allow update, delete: if false;
+    }
+    match /gecisIncelemeKayitlari/{id} { allow read: if admin(); allow update: if admin() && request.resource.data.sourcePath == resource.data.sourcePath; }
+    match /sistemGecisleri/{id} { allow read: if admin(); }
+    // Historical sources remain available to the owner; they are never a public personnel source.
+    match /{legacy}/{id} {
+      allow read: if admin() && legacy in ['vardiyalar', 'personelAnaKayitlari', 'sahaPersonelProfilleri', 'personelBirimUyelikleri', 'ustYonetimGundemi', 'kronikSorunlar', 'personelIzinler', 'meydanBasvurulari', 'meydanBasvuruStats', 'ilceBasvuruStats'];
+    }
+  }
+}
